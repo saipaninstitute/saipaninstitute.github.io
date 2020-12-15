@@ -1,0 +1,6 @@
+@media (max-width: 991.98px) {
+  .our-plan .owl-carousel img {
+    max-height: 300px;
+    object-fit: cover;
+  }
+}

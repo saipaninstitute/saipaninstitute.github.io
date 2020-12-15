@@ -1,0 +1,73 @@
+/*
+ * event.scss
+ * -----------------------------------------------
+*/
+.upcoming-events {
+	background: #fff;
+	box-shadow:  0 0 30px rgba(0,0,0,.1);
+	border-radius: 10px;
+	overflow: hidden;
+	padding: 10px;
+	.thumb {
+	}
+	.event-details {
+		padding: 30px;
+	}
+	.event-date {
+		background: #eee;
+		padding: 20px 20px;
+		text-align: center;
+		margin-right: 15px;
+		display: inline-block;
+		.day {
+			font-size: 30px;
+			line-height: 1.1;
+			font-weight: 600;
+			display: block;
+		}
+		.month {
+			font-size: 22px;
+			line-height: 1.1;
+		}
+	}
+	.event-meta {
+		list-style: none;
+		color: #aaa;
+		margin-bottom: 15px;
+		font-size: 14px;
+		li {
+			display: inline-block;
+			margin-right: 10px;
+			i {
+				margin-right: 5px;
+			}
+		}
+	}
+}
+
+.upcoming-events-current-style {
+	.thumb {
+		position: relative;
+		img {
+		}
+		.event-date {
+			position: absolute;
+			bottom: 0;
+			width: 100%;
+			text-align: center;
+			border-radius: 0 0 12px 12px;
+			.date {
+				color: #fff;
+			}
+		}
+	}
+	.event-details {
+		.event-location {
+	    list-style: none;
+	    li {
+		    display: inline;
+		    margin-right: 20px;
+			}
+		}
+	}
+}

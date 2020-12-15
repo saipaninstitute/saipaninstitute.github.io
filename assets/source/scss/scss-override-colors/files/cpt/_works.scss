@@ -1,0 +1,18 @@
+/*
+ * Shortcode: works.scss
+ * -----------------------------------------------
+*/
+.tm-sc-works-categories {
+	&.style-default-current-theme {
+		.each-category {
+			.details {
+			}
+			&:hover {
+				.thumb {
+				}
+				.details {
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,81 @@
+/*
+ * shop-catalog-layouts.scss
+ * -----------------------------------------------
+*/
+
+table.tbl-shopping-cart {
+	.product-thumbnail {
+		min-width: 64px;
+	}
+
+	img {
+		width: 64px;
+		box-shadow: none;
+	}
+
+	th,
+	td {
+		vertical-align: middle;
+	}
+	.product-name {
+		a {
+			color: $headings-color;
+		}
+		.variation {
+			list-style: none;
+		}
+	}
+
+	.product-remove a {
+		display: inline-block;
+		width: 24px;
+		height: 24px;
+		line-height: 24px;
+		border-radius: 24px;
+		transition: all 300ms ease-out;
+		background-color: #757575;
+		color: #ffffff !important;
+		text-align: center;
+	}
+
+	.quantity {
+		.qty, .minus, .plus {
+			background: #F7F7F7;
+			-moz-appearance: textfield;
+			background: #fbfbfb none repeat scroll 0 0;
+			border: 1px solid #e4e4e4;
+			display: block;
+			float: left;
+			padding: 11px 10px;
+			cursor: pointer;
+		}
+		.minus {
+			border-right: 1px solid transparent;
+			padding: 11px 12px;
+		}
+		.plus {
+			border-left: 1px solid transparent;
+		}
+		.qty {
+			background: #fff none repeat scroll 0 0;
+			text-align: center;
+			width: 48px;
+			padding-left: 5px;
+			padding-right: 5px;
+		}
+		@include media-breakpoint-down(sm) {
+			.minus, .plus {
+				padding: 7px 19px;
+				border: 1px solid #e4e4e4;
+			}
+			.qty {
+				margin: 5px 0;
+			}
+		}
+	}
+}
+table.tbl-shopping-cart > thead > tr > th,
+table.tbl-shopping-cart > tbody > tr > th,
+table.tbl-shopping-cart > tfoot > tr > th	{
+	color: #444;
+}

@@ -1,0 +1,32 @@
+/*
+ * Shortcode: funfacts.scss
+ * -----------------------------------------------
+*/
+.tm-sc-funfact {
+	@include transition(all 0.5s ease);
+	position: relative;
+
+	.funfact-inner {
+		.funfact-icon {
+			@include transition( all .3s ease-in-out);
+			i {
+				font-size: 45px;
+				@include transition( all .3s ease-in-out);
+			}
+		}
+		.counter {
+			margin-top: 0;
+			.animate-number {
+				line-height: 1;
+			}
+		}
+		&.funfact-lefticon {
+			.details {
+				margin-left: 60px;
+			}
+		}
+		:last-child {
+			margin-bottom: 0;
+		}
+	}
+}

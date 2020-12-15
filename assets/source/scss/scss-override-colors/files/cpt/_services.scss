@@ -1,0 +1,26 @@
+/*
+ * Shortcode: services.scss
+ * -----------------------------------------------
+*/
+
+.tm-sc-services {
+	&.services-style-current-theme {
+		.tm-service {
+			.details {
+				border-bottom-color: $theme-color1;
+				.symbol-icon {
+					background: $theme-color1;
+				}
+			}
+
+			&:hover {
+				.details{
+					border-color: $theme-color2;
+					.symbol-icon {
+						background: $theme-color2;
+					}
+				}
+			}
+		}
+	}
+}

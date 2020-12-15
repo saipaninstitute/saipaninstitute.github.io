@@ -1,0 +1,16 @@
+/*
+ * Shortcode: projects.scss
+ * -----------------------------------------------
+*/
+
+.tm-sc-projects {
+	&.projects-style8-current-theme {
+		.tm-project {
+			.thumb {
+				.link {
+					background-color: $theme-color1;
+				}
+			}
+		}
+	}
+}

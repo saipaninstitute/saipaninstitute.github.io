@@ -1,0 +1,18 @@
+/*
+ * Shortcode: testimonials.scss
+ * -----------------------------------------------
+*/
+.tm-sc-testimonials {
+	&.testimonial-style1-simple.testimonial-style1-theme-colored {
+		.author-text {
+			background: $theme-color1;
+			color: #fff;
+			&:before {
+				color: #fff;
+			}
+			&:after {
+				border-bottom: 25px solid $theme-color1;
+			}
+		}
+	}
+}

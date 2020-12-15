@@ -1,0 +1,93 @@
+/*
+ * Shortcode: blog.scss
+ * -----------------------------------------------
+*/
+.tm-sc-blog {
+	article {
+		.entry-meta {
+			i, .sl-wrapper .sl-icon svg {
+				//color: $theme-color1;
+			}
+		}
+	}
+
+	&.blog-style2-classic {
+		article {
+			.entry-header {
+				.post-single-meta {
+					background: $theme-color1;
+				}
+			}
+		}
+	}
+
+	&.blog-style3-modern {
+		article {
+			.entry-header {
+				.post-single-meta {
+					background: $theme-color1;
+				}
+			}
+			.entry-content {
+				.post-btn-readmore {
+					border-color: $theme-color1;
+					background-color: #fff;
+				}
+			}
+			&:hover {
+				.entry-content {
+					.post-btn-readmore {
+						background-color: $theme-color1;
+						.btn-plain-text-with-arrow {
+							&:after {
+								color: #fff;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	&.blog-style4-everything-over-image {
+		article {
+			.entry-header {
+				.post-single-meta {
+					background: $theme-color1;
+				}
+			}
+			&:hover {
+				.entry-content {
+					.post-btn-readmore {
+						.btn-plain-text-with-arrow {
+							&:after {
+								color: $theme-color1;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	&.blog-style6-alternative-design {
+		.isotope-layout-inner {
+			.isotope-item:not(.isotope-item-sizer) {
+				&:nth-child(8n + 1), &:nth-child(8n + 3),
+				&:nth-child(8n + 6), &:nth-child(8n + 8) {
+					article {
+						.post-thumb {
+							.post-thumb-inner {
+								.thumb {
+									&:after {
+										background-color: rgba($theme-color1, .94);
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

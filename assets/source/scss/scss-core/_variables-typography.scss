@@ -1,0 +1,82 @@
+
+//== Scaffolding
+//
+//## Settings for some of the most global styles.
+
+// Background color for `<body>`.
+$body-bg:				 $white-base;
+// Global text color on `<body>`.
+$text-color:			#666;
+
+// Global textual link color.
+$link-color:			#0073aa;
+// Link hover color set via `darken()` function.
+$link-hover-color:		darken($link-color, 15%);
+// Link hover decoration.
+$link-hover-decoration: none;
+
+
+
+//== Typography
+//
+//## Font, line-height, and color for body text, headings, and more.
+$font-current-theme1:			'Open Sans', sans-serif;
+$font-current-theme2:			'Playfair Display', serif;
+$font-current-theme3:			'Raleway', sans-serif;
+
+
+$body-font:				$font-current-theme1;
+$heading-font:			$font-current-theme1;
+$secondary-font:		$font-current-theme1;
+
+$font-size-base:		1rem; // Assumes the browser default, typically `16px`
+$body-font-size:		1rem; // Assumes the browser default, typically `16px`
+$font-size-lg:			($font-size-base * 1.13); // 18px
+$font-size-sm:			($font-size-base * .875); // 14px
+
+
+$h1-font-size:          $font-size-base * 3;
+$h2-font-size:          $font-size-base * 2.5;
+$h3-font-size:          $font-size-base * 1.8;
+$h4-font-size:          $font-size-base * 1.5;
+$h5-font-size:          $font-size-base * 1.25;
+$h6-font-size:          $font-size-base;
+
+
+$font-weight-light:           300;
+$font-weight-normal:          500;
+$font-weight-medium:          500;
+$font-weight-600:          	  600;
+$font-weight-bold:            700;
+$font-weight-bolder:          800;
+$font-weight-black:           900;
+
+
+// line height for paragraph
+$line-height-base:			 		1.8;
+$line-height-widget-li:			2.5rem;
+// body font weight
+$body-font-weight:				$font-weight-light;
+
+
+
+//== Headings
+//
+$headings-font-family: 			$heading-font;
+$headings-font-weight-h1-h3:	600;
+$headings-font-weight-h4-h6:	500;
+$headings-line-height: 			1.3;
+$headings-line-height-smaller:	1.8;
+$headings-color: 				#333;
+
+
+$headings-nav-side-icons-color: 	#888;
+
+
+//== section title
+$section-title-font-size:				$font-size-base * 2.5;
+$section-title-font-family:				$heading-font;
+$section-title-subtitle-font-size:		$font-size-base * 0.9;
+$section-title-subtitle-font-family:	$heading-font;
+$section-title-para-font-size:			$body-font-size;
+

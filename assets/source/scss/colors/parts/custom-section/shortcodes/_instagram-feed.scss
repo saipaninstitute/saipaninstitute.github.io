@@ -1,0 +1,14 @@
+/*
+ * Shortcode: instagram-feed.scss
+ * -----------------------------------------------
+*/
+#sb_instagram {
+	.sbi_follow_btn {
+		a {
+			background: rgba($theme-color1, .80);
+			&:hover {
+				background: rgba($theme-color2, .80);
+			}
+		}
+	}
+}

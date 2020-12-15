@@ -1,0 +1,38 @@
+/*
+ * Shortcode: common.scss
+ * -----------------------------------------------
+*/
+.tm-sc-blog {
+	&.blog-style1-current-theme {
+		.entry-content {
+			.entry-date {
+				background: $theme-color2;
+				ul {
+				}
+			}
+			.entry-title {
+			}
+		}
+	}
+	&.blog-style2-current-theme {
+		.post {
+			.entry-header {
+				.entry-meta {
+					&.meta-absolute {
+						background: rgba($theme-color2, 0.9) !important;
+						ul {
+							li {
+								i {
+								}
+							}
+						}
+					}
+				}
+			}
+			.entry-content {
+				.list-inline>li {
+				}
+			}
+		}
+	}
+}

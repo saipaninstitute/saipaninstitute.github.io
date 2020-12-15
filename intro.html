@@ -1,0 +1,990 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+<head>
+
+<!-- Meta Tags -->
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<meta name="description" content="StudyPress | Education & Courses HTML Template" />
+<meta name="keywords" content="academy, course, education, education html theme, elearning, learning," />
+<meta name="author" content="ThemeMascot" />
+
+<!-- Page Title -->
+<title>StudyPress | Education & Courses HTML Template</title>
+
+<!-- Favicon and Touch Icons -->
+<link href="images/favicon.png" rel="shortcut icon" type="image/png">
+<link href="images/apple-touch-icon.png" rel="apple-touch-icon">
+<link href="images/apple-touch-icon-72x72.png" rel="apple-touch-icon" sizes="72x72">
+<link href="images/apple-touch-icon-114x114.png" rel="apple-touch-icon" sizes="114x114">
+<link href="images/apple-touch-icon-144x144.png" rel="apple-touch-icon" sizes="144x144">
+
+<!-- Stylesheet -->
+<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="css/animate.min.css" rel="stylesheet" type="text/css">
+<link href="css/javascript-plugins-bundle.css" rel="stylesheet"/>
+
+<!-- CSS | menuzord megamenu skins -->
+<link href="js/menuzord/css/menuzord.css" rel="stylesheet"/>
+
+<!-- CSS | Main style file -->
+<link href="css/style-main.css" rel="stylesheet" type="text/css">
+<link id="menuzord-menu-skins" href="css/menuzord-skins/menuzord-rounded-boxed.css" rel="stylesheet"/>
+
+<!-- CSS | Responsive media queries -->
+<link href="css/responsive.css" rel="stylesheet" type="text/css">
+<!-- CSS | Style css. This is the file where you can place your own custom css code. Just uncomment it and use it. -->
+
+<!-- CSS | Theme Color -->
+<link href="css/colors/theme-skin-color-set1.css" rel="stylesheet" type="text/css">
+
+<!-- external javascripts -->
+<script src="js/jquery.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/javascript-plugins-bundle.js"></script>
+<script src="js/menuzord/js/menuzord.js"></script>
+
+<!-- REVOLUTION STYLE SHEETS -->
+<link rel="stylesheet" type="text/css" href="js/revolution-slider/css/rs6.css">
+<link rel="stylesheet" type="text/css" href="js/revolution-slider/extra-rev-slider1.css">
+<!-- REVOLUTION LAYERS STYLES -->
+<!-- REVOLUTION JS FILES -->
+<script src="js/revolution-slider/js/revolution.tools.min.js"></script>
+<script src="js/revolution-slider/js/rs6.min.js"></script>
+<script src="js/revolution-slider/extra-rev-slider1.js"></script>
+
+<!-- <link href="css/style.css" rel="stylesheet" type="text/css"> -->
+
+
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+<style>
+  .text-red {
+    color: #FF5722;
+  }
+  .demo-box {
+    margin-bottom: 50px;
+  }
+  .overlay2 {
+    margin-top: 15px;
+  }
+  .img-thumbnail {
+    border: 1px solid #eee;
+    opacity: 0.95;
+  }
+  .photonail2:hover .img-thumbnail {
+    border: 1px solid #aaa;
+    opacity: 1;
+  }
+  .newly-added::after {
+    /*background: rgba(0, 0, 0, 0) url("demo-images/new.png") repeat scroll 0 0;*/
+    content: "";
+    height: 50px;
+    position: absolute;
+    right: -5px;
+    top: 38px;
+    width: 60px;
+  }
+
+  .feature-box {
+    margin-bottom: 20px;
+  }
+  .feature-box .feature-box-icon {
+    border-radius: 50%;
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    margin-right: 10px;
+    margin-top: -5px;
+    text-align: center;
+    width: 30px;
+  }
+  .feature-box .feature-box-icon i {
+    font-size: 14px;
+    padding: 3px;
+  }
+  .feature-box .feature-box-info h5 {
+    font-size: 14px;
+  }
+  .demo-gallery {
+    position: relative;
+    padding: 10px;
+    overflow: hidden;
+  }
+  .gallery-item .gallery-thumb img {
+    border-radius: 3px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.5);
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+  }
+  .gallery-item:hover .gallery-thumb img {
+    box-shadow: 0 20px 35px 2px rgba(0, 0, 0, 0.25);
+    transform: scale(1.03);
+  }
+  .portfolio-filter a {
+    margin-bottom: 10px;
+  }
+  .overlay2 h5 {
+    color: #fff;
+  }
+  @media only screen and (max-width : 767px) {
+    .gallery-isotope .gallery-item {
+      padding-bottom: 20px !important;
+      padding-right: 20px !important;
+    }
+  }
+  .theme-feature-list ul li {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+  .theme-feature-list ul li a {
+    font-size: 16px;
+    color: #555;
+  }
+  .theme-feature-list ul li a:hover {
+    color: #333;
+  }
+  .theme-feature-list ul li a i {
+    font-size: 18px;
+    color: #2c3e50;
+    margin-top: 5px;
+    margin-right: 10px;
+    width: 25px;
+  }
+</style>
+</head>
+<body class="bg-black-333">
+<div id="wrapper" class="clearfix">
+  <!-- preloader -->
+  <!-- <div id="preloader">
+    <div id="spinner">
+      <img alt="" src="images/preloaders/3.gif">
+    </div>
+    <div id="disable-preloader" class="btn btn-default btn-sm bg-white-f5">Disable Preloader</div>
+  </div> -->
+  
+  <!-- start main-content -->
+  <div class="main-content-area">
+    <section id="home" class="inner-header divider parallax layer-overlay overlay-deep" data-tm-bg-img="images/bg/bg2.jpg">
+      <div class="container-fluid pt-100 pb-50"> 
+        <!-- Section Content -->
+        <div class="section-content text-center">
+          <div class="row">
+            <div class="col-md-10 col-md-push-1"> 
+              <img alt="logo" src="images/logo-wide.png">
+              <h4 class="text-center mt-40 mb-50">Health & Medical Responsive HTML5 Template </h4>
+              <h4>Built with</h4>
+              <img alt="LESS CSS" src="http://lesscss.org/public/img/logo.png">
+
+              <div class="go-down text-center mt-30"><a class="font-24 mt-30 smooth-scroll-to-target btn-orange" href="#demo-section"><i class="fa fa-chevron-down font-20 infinite animated fadeInDown"></i></a></div>
+            </div>
+          </div>
+        </div> 
+       </div>
+    </section>
+
+    <section  id="features" class="divider parallax layer-overlay overlay-dark-9" data-tm-bg-img="images/bg/bg1.jpg">
+      <div class="container pt-60 pb-60"> 
+        <!-- Section Content -->
+        <div class="section-content">
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <h2 class="text-white">Features</h2>
+            </div>
+          </div>
+        </div>
+      </div>  
+    </section>
+
+    <section class="bg-lighter">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 offset-md-2">
+            <div class="text-center mb-50">
+              <h2>Awesome Features</h2>
+              <p>This Template includes around 66 important features and shortcodes to make your website <br>development process faster! Check it out by clicking one of them.</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-8 offset-md-3">
+          </div>
+          <div class="col-md-12">
+            <div class="row">
+              <div class="col-xs-6 col-md-3">
+                <div class="demo-feature-box text-center mb-30">
+                  <img src="http://docs.kodesolution.info/ori/html/features-icons/1.png" width="64" alt="">
+                  <h4>Built with Bootstrap 3.x</h4>
+                  <p>Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web.
+                  </p>
+                </div>
+              </div>
+              <div class="col-xs-6 col-md-3">
+                <div class="demo-feature-box text-center mb-30">
+                  <img src="http://docs.kodesolution.info/ori/html/features-icons/2.png" width="64" alt="">
+                  <h4>Theme Color Skins</h4>
+                  <p>You can easily change or add new theme skin colors by using less or css.</p>
+                </div>
+              </div>
+              <div class="col-xs-6 col-md-3">
+                <div class="demo-feature-box text-center mb-30">
+                  <img src="http://docs.kodesolution.info/ori/html/features-icons/3.png" width="64" alt="">
+                  <h4>Wide, Boxed & Onepage Layouts</h4>
+                  <p>It includes a wide range of boxed, wide and onepage layouts</p>
+                </div>
+              </div>
+              <div class="col-xs-6 col-md-3">
+                <div class="demo-feature-box text-center mb-30">
+                  <img src="http://docs.kodesolution.info/ori/html/features-icons/4.png" width="64" alt="">
+                  <h4>Google Fonts Supported</h4>
+                  <p>This template supports any google font. You can add your preferred google font easily.</p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="row">
+              <div class="col-xs-6 col-md-3">
+                <div class="demo-feature-box text-center mb-30">
+                  <img src="http://docs.kodesolution.info/ori/html/features-icons/5.png" width="64" alt="">
+                  <h4>Shop Ready</h4>
+                  <p>Shop Home, Single, Category, Cart and Checkout page is ready!
+                  </p>
+                </div>
+              </div>
+              <div class="col-xs-6 col-md-3">
+                <div class="demo-feature-box text-center mb-30">
+                  <img src="http://docs.kodesolution.info/ori/html/features-icons/6.png" width="64" alt="">
+                  <h4>Video Backgrounds</h4>
+                  <p>You can display MP4 Video in Backgorund. All modern desktop browsers are supported.</p>
+                </div>
+              </div>
+              <div class="col-xs-6 col-md-3">
+                <div class="demo-feature-box text-center mb-30">
+                  <img src="http://docs.kodesolution.info/ori/html/features-icons/7.png" width="64" alt="">
+                  <h4>Parallax Effect</h4>
+                  <p>You can add parallax effect easily to any background image.</p>
+                </div>
+              </div>
+              <div class="col-xs-6 col-md-3">
+                <div class="demo-feature-box text-center mb-30">
+                  <img src="http://docs.kodesolution.info/ori/html/features-icons/8.png" width="64" alt="">
+                  <h4>Calendar</h4>
+                  <p>A JavaScript event calendar. Customizable and open source.</p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="row">
+              <div class="col-xs-6 col-md-3">
+                <div class="demo-feature-box text-center mb-30">
+                  <img src="http://docs.kodesolution.info/ori/html/features-icons/9.png" width="64" alt="">
+                  <h4>Photo Gallery</h4>
+                  <p>It contains a lot of example of photo gallery including grid, masonry, tiles etc.
+                  </p>
+                </div>
+              </div>
+              <div class="col-xs-6 col-md-3">
+                <div class="demo-feature-box text-center mb-30">
+                  <img src="http://docs.kodesolution.info/ori/html/features-icons/10.png" width="64" alt="">
+                  <h4>Portfolio Grid, Masonry and Tiles</h4>
+                  <p>It contains a lot of example of Portfolio gallery including grid, masonry, tiles etc.</p>
+                </div>
+              </div>
+              <div class="col-xs-6 col-md-3">
+                <div class="demo-feature-box text-center mb-30">
+                  <img src="http://docs.kodesolution.info/ori/html/features-icons/11.png" width="64" alt="">
+                  <h4>Blog Pages (Not Functional)</h4>
+                  <p>It has come with a variation of blog pages including grid, masonry, classic etc.</p>
+                </div>
+              </div>
+              <div class="col-xs-6 col-md-3">
+                <div class="demo-feature-box text-center mb-30">
+                  <img src="http://docs.kodesolution.info/ori/html/features-icons/12.png" width="64" alt="">
+                  <h4>100% Responsive</h4>
+                  <p>This template is 100% responsive on all modern browsers.</p>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="row">
+              <div class="col-xs-6 col-md-3">
+                <div class="demo-feature-box text-center mb-30">
+                  <img src="http://docs.kodesolution.info/ori/html/features-icons/13.png" width="64" alt="">
+                  <h4>Side Push Panel</h4>
+                  <p>This template includes Side Push Panel:
+                    From Left, From Left Overlay, From RIght, From Right Overlay
+                  </p>
+                </div>
+              </div>
+              <div class="col-xs-6 col-md-3">
+                <div class="demo-feature-box text-center mb-30">
+                  <img src="http://docs.kodesolution.info/ori/html/features-icons/14.png" width="64" alt="">
+                  <h4>Widgetized Megamenu</h4>
+                  <p>We have used Menuzord Megamenu to  provide you awesome experience on  Widgetized Megamenu.</p>
+                </div>
+              </div>
+              <div class="col-xs-6 col-md-3">
+                <div class="demo-feature-box text-center mb-30">
+                  <img src="http://docs.kodesolution.info/ori/html/features-icons/15.png" width="64" alt="">
+                  <h4>Functional Contact Form</h4>
+                  <p>We have used PHPMailer - A full-featured  email creation and transfer class for PHP.</p>
+                </div>
+              </div>
+              <div class="col-xs-6 col-md-3">
+                <div class="demo-feature-box text-center mb-30">
+                  <img src="http://docs.kodesolution.info/ori/html/features-icons/16.png" width="64" alt="">
+                  <h4>Contact Form with reCAPTCHA</h4>
+                  <p>We have used reCAPTCHA. It protects  internet users from spam and abuse  wherever they go.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-xs-6 col-md-3">
+                <div class="demo-feature-box text-center mb-30">
+                  <img src="http://docs.kodesolution.info/ori/html/features-icons/17.png" width="64" alt="">
+                  <h4>Google Map Multilocation</h4>
+                  <p>If you want to display a map on your  website that has more than one location plotted on it</p>
+                </div>
+              </div>
+              <div class="col-xs-6 col-md-3">
+                <div class="demo-feature-box text-center mb-30">
+                  <img src="http://docs.kodesolution.info/ori/html/features-icons/18.png" width="64" alt="">
+                  <h4>Before After Slider</h4>
+                  <p>Before After Slider provides you a way to  showcase the visual differences between  two images.</p>
+                </div>
+              </div>
+              <div class="col-xs-6 col-md-3">
+                <div class="demo-feature-box text-center mb-30">
+                  <img src="http://docs.kodesolution.info/ori/html/features-icons/19.png" width="64" alt="">
+                  <h4>Mailchimp Subscribe</h4>
+                  <p>AjaxChimp is a jQuery plugin that lets  you ajaxify your mailchimp form.</p>
+                </div>
+              </div>
+              <div class="col-xs-6 col-md-3">
+                <div class="demo-feature-box text-center mb-30">
+                  <img src="http://docs.kodesolution.info/ori/html/features-icons/20.png" width="64" alt="">
+                  <h4>RTL Support</h4>
+                  <p>Our Template completely (100%)  supports RTL Languages like  Arabic, Hebrew etc. </p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="row">
+              <div class="col-xs-6 col-md-3">
+                <div class="demo-feature-box text-center mb-30">
+                  <img src="http://docs.kodesolution.info/ori/html/features-icons/21.png" width="64" alt="">
+                  <h4>SEO Optimized</h4>
+                  <p>This template is SEO optimized.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section  id="shortcodes" class="divider parallax layer-overlay overlay-dark-9" data-tm-bg-img="images/bg/bg1.jpg">
+      <div class="container pt-60 pb-60"> 
+        <!-- Section Content -->
+        <div class="section-content">
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <h2 class="text-white">Shortcodes</h2>
+            </div>
+          </div>
+        </div>
+      </div>  
+    </section>
+
+    <section data-tm-bg-img="http://docs.kodesolution.info/html/landing-images/creative-smartphone.jpg" class="divider parallax layer-overlay overlay-white-9">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 offset-md-2">
+            <div class="text-center mb-50">
+              <h2>Included Shortcodes</h2>
+              <p>This Template includes around 66 important features and shortcodes to make your website <br>development process faster! Check it out by clicking one of them.</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-8 offset-md-3">
+          </div>
+          <div class="col-md-12">
+            <div class="theme-feature-list">
+              <div class="row">
+                <div class="col-xs-6 col-md-3">
+                  <ul class="list-unstyled">
+                    <li><a target="_blank" href="shortcode-accordion.html"><i class="fa fa-list-ul"></i> Accordion</a></li>
+                    <li><a target="_blank" href="shortcode-alerts.html"><i class="fa fa-exclamation-circle"></i> Alerts</a></li>
+                    <li><a target="_blank" href="shortcode-animations.html"><i class="fa fa-magic"></i> Animations</a></li>
+                    <li><a target="_blank" href="shortcode-background-html5-video.html"><i class="fa fa-video-camera"></i> HTML5 Background Video</a></li>
+                    <li><a target="_blank" href="shortcode-before-after-slider.html"><i class="fa fa-window-restore"></i> Before/After Slider</a></li>
+                    <li><a target="_blank" href="shortcode-blockquotes.html"><i class="fa fa-quote-right"></i> Blockquotes</a></li>
+                    <li><a target="_blank" href="shortcode-box-gradient-effect.html"><i class="fa fa-picture-o"></i> Box Gradient Effects</a></li>
+                    <li><a target="_blank" href="shortcode-box-hover-effect.html"><i class="fa fa-picture-o"></i> Box Hover Effects</a></li>
+                    <li><a target="_blank" href="shortcode-button-groups-and-dropdowns.html"><i class="fa fa-link"></i> Button Groups</a></li>
+                    <li><a target="_blank" href="shortcode-button-hover-effect.html"><i class="fa fa-flag-o"></i> Button Hover Effect</a></li>
+                    <li><a target="_blank" href="shortcode-buttons.html"><i class="fa fa-external-link"></i> Buttons</a></li>
+                    <li><a target="_blank" href="shortcode-call-to-actions.html"><i class="fa fa-plus-square"></i> Call To Actions</a></li>
+                    <li><a target="_blank" href="shortcode-charts.html"><i class="fa fa-pie-chart"></i> Charts</a></li>
+                    <li><a target="_blank" href="shortcode-columns-grids.html"><i class="fa fa-columns"></i> Columns Grids</a></li>
+                    <li><a target="_blank" href="shortcode-divider.html"><i class="fa fa-indent"></i> Divider</a></li>
+                    <li><a target="_blank" href="shortcode-dropcaps.html"><i class="fa fa-bold"></i> Dropcaps</a></li>
+                    <li><a target="_blank" href="shortcode-datetime-datepicker.html"><i class="fa fa-calendar"></i> Date Picker</a></li>
+                  </ul>
+                </div>
+                <div class="col-xs-6 col-md-3">
+                  <ul class="list-unstyled">
+                    <li><a target="_blank" href="shortcode-datetime-timepicker.html"><i class="fa fa-calendar"></i> Time Picker</a></li>
+                    <li><a target="_blank" href="shortcode-datetime-datetimepicker.html"><i class="fa fa-calendar"></i> Bootstrap Date-Time Picker</a></li>
+                    <li><a target="_blank" href="shortcode-datetime-datepair.html"><i class="fa fa-calendar"></i> Date Pair</a></li>
+                    <li><a target="_blank" href="shortcode-flickr-feed.html"><i class="fa fa-flickr"></i> Flickr Feed</a></li>
+                    <li><a target="_blank" href="shortcode-flipbox.html"><i class="fa fa-square"></i> Flipbox</a></li>
+                    <li><a target="_blank" href="shortcode-forms.html"><i class="fa fa-align-justify"></i> Forms</a></li>
+                    <li><a target="_blank" href="shortcode-funfacts.html"><i class="fa fa-bell-o"></i> Funfacts</a></li>
+                    <li><a target="_blank" href="shortcode-iconbox.html"><i class="fa fa-unsorted"></i> Icon Box</a></li>
+                    <li><a target="_blank" href="shortcode-icon-7stroke.html"><i class="fa fa-circle-o"></i> Icons 7stroke</a></li>
+                    <li><a target="_blank" href="shortcode-icon-elegant-icons.html"><i class="fa fa-eye-slash"></i> Icons Elegant</a></li>
+                    <li><a target="_blank" href="shortcode-icon-flat-color-icons.html"><i class="fa fa-i-cursor"></i> Icons Flat Color</a></li>
+                    <li><a target="_blank" href="shortcode-icon-fontawesome.html"><i class="fa fa-fort-awesome"></i> Icons FontAwesome</a></li>
+                    <li><a target="_blank" href="shortcode-icon-fontawesome-tutorial.html"><i class="fa fa-fonticons"></i> Icons FontAwesome Tutorial</a></li>
+                    <li><a target="_blank" href="shortcode-icon-strokegap.html"><i class="strokegap-icon strokegap-icon-WorldWide"></i> Icons Strokegap</a></li>
+                    <li><a target="_blank" href="shortcode-image-box.html"><i class="fa fa-file-image-o"></i> Image Box</a></li>
+                    <li><a target="_blank" href="shortcode-instagram.html"><i class="fab fa-instagram"></i> Instagram Feed</a></li>
+                    <li><a target="_blank" href="shortcode-labels-badges.html"><i class="fa fa-check-square-o"></i> Labels Badges</a></li>
+                  </ul>
+                </div>
+                <div class="col-xs-6 col-md-3">
+                  <ul class="list-unstyled">
+                    <li><a target="_blank" href="shortcode-listgroup-panels.html"><i class="fa fa-th-list"></i> Listgroup Panels</a></li>
+                    <li><a target="_blank" href="shortcode-lists.html"><i class="fa fa-list"></i> Lists</a></li>
+                    <li><a target="_blank" href="shortcode-maps.html"><i class="fa fa-map"></i> Maps</a></li>
+                    <li><a target="_blank" href="shortcode-media-embed.html"><i class="fa fa-play-circle-o"></i> Media Embed</a></li>
+                    <li><a target="_blank" href="shortcode-modal-bootstrap.html"><i class="fa fa-search-plus"></i> Modal</a></li>
+                    <li><a target="_blank" href="shortcode-modal-lightbox.html"><i class="fa fa-expand"></i> Lightbox</a></li>
+                    <li><a target="_blank" href="shortcode-navigation.html"><i class="fa fa-navicon"></i> Navigation</a></li>
+                    <li><a target="_blank" href="shortcode-owl-carousel.html"><i class="fa fa-sliders"></i> Owl Carousel</a></li>
+                    <li><a target="_blank" href="shortcode-odometer.html"><i class="fa fa-tachometer"></i> Odometer</a></li>
+                    <li><a target="_blank" href="shortcode-pagination.html"><i class="fa fa-arrow-circle-o-right"></i> Pagination</a></li>
+                    <li><a target="_blank" href="shortcode-progressbar.html"><i class="fa fa-tasks"></i> Progress Bars</a></li>
+                    <li><a target="_blank" href="shortcode-piechart.html"><i class="fa fa-sun-o"></i> Pie Charts</a></li>
+                    <li><a target="_blank" href="shortcode-responsive.html"><i class="fa fa-tablet"></i> Responsive</a></li>
+                    <li><a target="_blank" href="shortcode-separator.html"><i class="fa fa-minus-square-o"></i> Separator</a></li>
+                    <li><a target="_blank" href="shortcode-sitemap.html"><i class="fa fa-sitemap"></i> Sitemap</a></li>
+                    <li><a target="_blank" href="shortcode-sliders.html"><i class="fa fa-sliders"></i> Sliders</a></li>
+                    <li><a target="_blank" href="shortcode-smoothscrolling.html"><i class="fa fa-binoculars"></i> Smoothscrolling</a></li>
+                  </ul>
+                </div>
+                <div class="col-xs-6 col-md-3">
+                  <ul class="list-unstyled">
+                    <li><a target="_blank" href="shortcode-styled-icons.html"><i class="fab fa-facebook-square"></i> Styled Icons</a></li>
+                    <li><a target="_blank" href="shortcode-subscribe.html"><i class="fa fa-user-plus"></i> Subscribe</a></li>
+                    <li><a target="_blank" href="shortcode-tables.html"><i class="fa fa-table"></i> Tables</a></li>
+                    <li><a target="_blank" href="shortcode-tabs.html"><i class="fa fa-indent"></i> Tabs</a></li>
+                    <li><a target="_blank" href="shortcode-textblock.html"><i class="fa fa-bold"></i> Textblock</a></li>
+                    <li><a target="_blank" href="shortcode-thumbnails-carousels.html"><i class="fa fa-sliders"></i> Thumbnails/carousels</a></li>
+                    <li><a target="_blank" href="shortcode-title.html"><i class="fa fa-text-height"></i> Title</a></li>
+                    <li><a target="_blank" href="shortcode-timer-final-countdown.html"><i class="fa fa-text-height"></i> Timer Final Countdown</a></li>
+                    <li><a target="_blank" href="shortcode-timer-flipclock.html"><i class="fa fa-text-height"></i> Timer Flipclock</a></li>
+                    <li><a target="_blank" href="shortcode-timer-slick-circular.html"><i class="fa fa-text-height"></i> Timer Slick Circular</a></li>
+                    <li><a target="_blank" href="shortcode-twitter.html"><i class="fab fa-twitter-square"></i> Twitter Feed</a></li>
+                    <li><a target="_blank" href="shortcode-typography.html"><i class="fa fa-font"></i> Typography</a></li>
+                    <li><a target="_blank" href="shortcode-vertical-timeline.html"><i class="fa fa-arrows-v"></i> Vertical Timeline</a></li>
+                    <li><a target="_blank" href="shortcode-widgets.html"><i class="fa fa-gift"></i> Widgets</a></li>
+                    <li><a target="_blank" href="shortcode-working-process.html"><i class="fa fa-exchange"></i> Working Process</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section  id="herotemplates" class="divider parallax layer-overlay overlay-dark-9" data-tm-bg-img="images/bg/bg1.jpg">
+      <div class="container pt-60 pb-60"> 
+        <!-- Section Content -->
+        <div class="section-content">
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <h2 class="text-white">Slider Revolution</h2>
+            </div>
+          </div>
+        </div>
+      </div>  
+    </section>
+
+    <!-- Divider: Call To Action  -->
+    <article id="slider-revolution-hero" class="bg-light">
+      <div class="container pt-60">
+        <div class="row">
+          <div class="col-md-8 offset-md-2">
+            <div class="text-center mb-100">
+              <h2>Slider Revolution Hero Templates</h2>
+              <p class="">All example sliders you find below are included with the download of the Slider Revolution 5.0 Plugin. Oh, and it also comes with all assets like images and videos. Browse the Examples Folder through to find your favorite Example. Duplicate it and just start to build your own Slider based on our examples!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="filter">
+        <ul>
+          <li data-filter="filterall">All Example</li>
+          <li data-filter="filterDDD">3D</li>
+          <li data-filter="filterLandingPage">Landing Page</li>
+          <li data-filter="filterSlider">Slider</li>
+          <li data-filter="filterHero">Hero Scene</li>
+          <li data-filter="filterTimer">Timer</li>
+          <li data-filter="filterCarousel">Carousel</li>
+          <li data-filter="filterAuto">Auto-Size</li>
+          <li data-filter="filterFullwidth">Full-Width</li>
+          <li data-filter="filterFullscreen">Full-Screen</li>
+          <li data-filter="filterTabs">Tabs</li>
+          <li data-filter="filterScroll">Scroll Navigation</li>
+          <li data-filter="filterMenu">Menu Navigation</li>
+          <li data-filter="filterFront">Front Page</li>         
+          <li data-filter="filterSpecial">Special Content</li>
+          <li data-filter="filterParallax">Parallax</li>
+          <li data-filter="filterHTML5">HTML5 Video</li>
+          <li data-filter="filterYouTube">YouTube Video</li>
+          <li data-filter="filterVimeo">Vimeo Video</li>
+        </ul>
+      </div>
+      <div class="example-list">
+        
+        <a target="_blank" href="http://docs.kodesolution.info/revslider-hero/examples/original-preview/cleanproductshowcase.html" class="img-wrapper filterall filterFullscreen filterSlider filterTimer filterSpecial"><img alt="" src="http://docs.kodesolution.info/revslider-hero/assets/gridimages/cleanproductshowcase.jpg"><div class="hover-cover">Clean ProductShowcase</div></a>
+        <a target="_blank" href="http://docs.kodesolution.info/revslider-hero/examples/original-preview/overexposure.html" class="img-wrapper filterall filterFullscreen filterSlider filterTimer filterSpecial"><img alt="" src="http://docs.kodesolution.info/revslider-hero/assets/gridimages/overexposure.jpg"><div class="hover-cover">Over Exposure</div></a>
+        <a target="_blank" href="http://docs.kodesolution.info/revslider-hero/examples/original-preview/parallaxjoy.html" class="img-wrapper filterall filterFullscreen filterSlider filterTimer filterSpecial"><img alt="" src="http://docs.kodesolution.info/revslider-hero/assets/gridimages/parallaxjoy.jpg"><div class="hover-cover">Parallax Joy</div></a>
+        
+        <a target="_blank" href="http://docs.kodesolution.info/revslider-hero/examples/original-preview/BeforeAfter.html" class="img-wrapper filterall filterFullscreen filterSlider filterTimer filterSpecial"><img alt="" src="http://docs.kodesolution.info/revslider-hero/assets/gridimages/BeforeAfter.jpg"><div class="hover-cover">Before After Slider</div></a>
+        <a target="_blank" href="http://docs.kodesolution.info/revslider-hero/examples/original-preview/goodnews.html" class="img-wrapper filterall filterFullscreen filterSlider filterTimer filterSpecial"><img alt="" src="http://docs.kodesolution.info/revslider-hero/assets/gridimages/Goodnews.jpg"><div class="hover-cover">GoodNews WebSite</div></a>
+        <a target="_blank" href="http://docs.kodesolution.info/revslider-hero/examples/original-preview/double-exposure-effect.html" class="img-wrapper filterall filterParallax filterFullscreen filterSlider filterTimer filterSpecial"><img alt="" src="http://docs.kodesolution.info/revslider-hero/assets/gridimages/doubleexposure.jpg"><div class="hover-cover">Double Exposure<br><span style="color:#ff0000">(Only Server Environment)</span></div></a>
+        <a target="_blank" href="http://docs.kodesolution.info/revslider-hero/examples/original-preview/mountain-parallax-header.html" class="img-wrapper filterall filterParallax filterFullscreen filterSlider filterTimer filterSpecial"><img alt="" src="http://docs.kodesolution.info/revslider-hero/assets/gridimages/mountainparallax.jpg"><div class="hover-cover">Mountain Parallax Header</div></a>
+        <a target="_blank" href="http://docs.kodesolution.info/revslider-hero/examples/original-preview/ParallaxZoomSlices.html" class="img-wrapper filterall filterParallax filterFullscreen filterSlider filterTimer filterSpecial"><img alt="" src="http://docs.kodesolution.info/revslider-hero/assets/gridimages/parallax_zoom_slices.jpg"><div class="hover-cover">Parallax Zoom Slides</div></a>
+        <a target="_blank" href="http://docs.kodesolution.info/revslider-hero/examples/original-preview/MaskShowcase.html" class="img-wrapper filterall filterFullscreen filterSlider filterTimer"><img alt="" src="http://docs.kodesolution.info/revslider-hero/assets/gridimages/mask_showcase.jpg"><div class="hover-cover">Mask Showcase</div></a>
+        
+        <a target="_blank" href="http://docs.kodesolution.info/revslider-hero/examples/original-preview/WebsiteIntro.html" class="img-wrapper filterall filterFullscreen filterSlider filterTimer filterSpecial"><img alt="" src="http://docs.kodesolution.info/revslider-hero/assets/gridimages/website_intro.jpg"><div class="hover-cover">Website Intro</div></a>
+        
+        <a target="_blank" href="http://docs.kodesolution.info/revslider-hero/examples/original-preview/SpaceOpera.html" class="img-wrapper filterall filterFullscreen filterSlider"><img alt="" src="http://docs.kodesolution.info/revslider-hero/assets/gridimages/space_opera.jpg"><div class="hover-cover">Space Opera</div></a>
+        
+        <a target="_blank" href="http://docs.kodesolution.info/revslider-hero/examples/original-preview/FilmStrip.html" class="img-wrapper filterall filterFullwidth filterSlider filterSpecial"><img alt="" src="http://docs.kodesolution.info/revslider-hero/assets/gridimages/filmstrip_effect.jpg"><div class="hover-cover">Filmstrip</div></a>
+        
+        <a target="_blank" href="http://docs.kodesolution.info/revslider-hero/examples/original-preview/CarouselGallery.html" class="img-wrapper filterall filterFullwidth filterSlider filterCarousel filterTabs"><img alt="" src="http://docs.kodesolution.info/revslider-hero/assets/gridimages/carousel_gallery.jpg"><div class="hover-cover">Carousel Gallery</div></a>
+        
+        <a target="_blank" href="http://docs.kodesolution.info/revslider-hero/examples/original-preview/404-ErrorPage.html" class="img-wrapper filterall filterFullscreen filterParallax filterHero"><img alt="" src="http://docs.kodesolution.info/revslider-hero/assets/gridimages/404_error_page.jpg"><div class="hover-cover">404 Error Page</div></a>
+        
+        <a target="_blank" href="http://docs.kodesolution.info/revslider-hero/examples/original-preview/GravityDesign.html" class="img-wrapper filterall filterFullscreen filterParallax filterHero filterSpecial"><img alt="" src="http://docs.kodesolution.info/revslider-hero/assets/gridimages/gravity_design.jpg"><div class="hover-cover">Gravity Design</div></a>
+        
+        <a target="_blank" href="http://docs.kodesolution.info/revslider-hero/examples/original-preview/AppShowcase.html" class="img-wrapper filterall filterFullscreen filterHero filterSpecial"><img alt="" src="http://docs.kodesolution.info/revslider-hero/assets/gridimages/app_showcase.jpg"><div class="hover-cover">App Showcase</div></a>
+        
+        <a target="_blank" href="http://docs.kodesolution.info/revslider-hero/examples/original-preview/PortfolioViewer.html" class="img-wrapper filterall filterFullscreen filterSlider filterMenu filterSpecial"><img alt="" src="http://docs.kodesolution.info/revslider-hero/assets/gridimages/portfolio_viewer.jpg"><div class="hover-cover">Portfolio View</div></a>
+        
+        <a target="_blank" href="http://docs.kodesolution.info/revslider-hero/examples/original-preview/ParticleEffectThree.html" class="img-wrapper filterall filterFullscreen filterHero filterSpecial"><img alt="" src="http://docs.kodesolution.info/revslider-hero/assets/gridimages/particle-effect-three.jpg"><div class="hover-cover">Particle Effect Three</div></a>
+        
+        <a target="_blank" href="http://docs.kodesolution.info/revslider-hero/examples/original-preview/ParticleEffectTwo.html" class="img-wrapper filterall filterFullscreen filterHero filterSpecial"><img alt="" src="http://docs.kodesolution.info/revslider-hero/assets/gridimages/particle_effect_two.jpg"><div class="hover-cover">Particle Effect Two</div></a>
+        
+        <a target="_blank" href="http://docs.kodesolution.info/revslider-hero/examples/original-preview/ParticleEffectOne.html" class="img-wrapper filterall filterFullscreen filterSlider filterSpecial"><img alt="" src="http://docs.kodesolution.info/revslider-hero/assets/gridimages/particle_effect_one.jpg"><div class="hover-cover">Particle Effect One</div></a>
+
+        
+      
+        <a target="_blank" href="http://docs.kodesolution.info/revslider-hero/examples/original-preview/HappyHolidays.html" class="img-wrapper filterall filterSlider filterFullscreen filterParallax filterSpecial"><img alt="" src="http://docs.kodesolution.info/revslider-hero/assets/gridimages/HappyHolidays.jpg"><div class="hover-cover">Happy Holidays</div></a>
+        <a target="_blank" href="http://docs.kodesolution.info/revslider-hero/examples/original-preview/NiceAndClean.html" class="img-wrapper filterall filterSlider filterFullscreen filterParallax filterSpecial"><img alt="" src="http://docs.kodesolution.info/revslider-hero/assets/gridimages/NiceAndClean.jpg"><div class="hover-cover">Nice And Clean Template</div></a>
+        <a target="_blank" href="http://docs.kodesolution.info/revslider-hero/examples/original-preview/80sStyleIntro.html" class="img-wrapper filterall filterSlider filterFullscreen filterParallax filterSpecial"><img alt="" src="http://docs.kodesolution.info/revslider-hero/assets/gridimages/80sStyleIntro.jpg"><div class="hover-cover">80's Style Intro</div></a>
+        <a target="_blank" href="http://docs.kodesolution.info/revslider-hero/examples/original-preview/BlurEffectSlider.html" class="img-wrapper filterall filterSlider filterFullscreen filterParallax filterSpecial"><img alt="" src="http://docs.kodesolution.info/revslider-hero/assets/gridimages/BlurEffectSlider.jpg"><div class="hover-cover">Blur Effect Slider</div></a>
+        <a target="_blank" href="http://docs.kodesolution.info/revslider-hero/examples/original-preview/ComingSoon2.html" class="img-wrapper filterall filterSlider filterFullscreen filterSpecial filterParallax"><img alt="" src="http://docs.kodesolution.info/revslider-hero/assets/gridimages/ComingSoon2.jpg"><div class="hover-cover">Coming Soon</div></a>
+
+        <a target="_blank" href="http://docs.kodesolution.info/revslider-hero/examples/original-preview/themeplicity.html" class="img-wrapper filterall filterSlider filterFullscreen filterSpecial"><img alt="" src="http://docs.kodesolution.info/revslider-hero/assets/gridimages/themeplicity.jpg"><div class="hover-cover">Themeplicity</div></a>
+        <a target="_blank" href="http://docs.kodesolution.info/revslider-hero/examples/original-preview/blend_mode.html" class="img-wrapper filterall filterSlider filterFullscreen filterSpecial"><img alt="" src="http://docs.kodesolution.info/revslider-hero/assets/gridimages/blendmode.jpg"><div class="hover-cover">Blend Mode</div></a>
+        <a target="_blank" href="http://docs.kodesolution.info/revslider-hero/examples/original-preview/webagency.html" class="img-wrapper filterall filterSlider filterFullscreen filterSpecial"><img alt="" src="http://docs.kodesolution.info/revslider-hero/assets/gridimages/webagency.jpg"><div class="hover-cover">Web Agency</div></a>
+        <a target="_blank" href="http://docs.kodesolution.info/revslider-hero/examples/original-preview/minimal_website.html" class="img-wrapper filterall filterSlider filterFullscreen filterSpecial"><img alt="" src="http://docs.kodesolution.info/revslider-hero/assets/gridimages/minimal_website.jpg"><div class="hover-cover">Minimal Website</div></a>
+        <a target="_blank" href="http://docs.kodesolution.info/revslider-hero/examples/original-preview/duotone.html" class="img-wrapper filterall filterSlider filterFullscreen filterSpecial"><img alt="" src="http://docs.kodesolution.info/revslider-hero/assets/gridimages/duotone.jpg"><div class="hover-cover">Duo Tone</div></a>
+        <a target="_blank" href="http://docs.kodesolution.info/revslider-hero/examples/original-preview/exploration_header.html" class="img-wrapper filterall filterSlider filterFullscreen filterSpecial"><img alt="" src="http://docs.kodesolution.info/revslider-hero/assets/gridimages/exploration_header.jpg"><div class="hover-cover">Exploration Header</div></a>
+        <a target="_blank" href="http://docs.kodesolution.info/revslider-hero/examples/original-preview/inspiration_header.html" class="img-wrapper filterall filterSlider filterFullscreen filterSpecial"><img alt="" src="http://docs.kodesolution.info/revslider-hero/assets/gridimages/inspiration_header.jpg"><div class="hover-cover">Inspiration Header</div></a>
+        <a target="_blank" href="http://docs.kodesolution.info/revslider-hero/examples/original-preview/magazine_posts.html" class="img-wrapper filterall filterSlider filterFullscreen filterSpecial"><img alt="" src="http://docs.kodesolution.info/revslider-hero/assets/gridimages/magazine_posts.jpg"><div class="hover-cover">Magazine Posts</div></a>        
+        <a target="_blank" href="http://docs.kodesolution.info/revslider-hero/examples/original-preview/focus-parallax.html" class="img-wrapper filterall filterSlider filterFullscreen filterSpecial filterMenu filterParallax"><img alt="" src="http://docs.kodesolution.info/revslider-hero/assets/gridimages/focus_parallax.jpg"><div class="hover-cover">Focus Parallax</div></a>
+        <a target="_blank" href="http://docs.kodesolution.info/revslider-hero/examples/original-preview/website-builder.html" class="img-wrapper filterall filterSlider filterFullscreen filterSpecial filterMenu filterParallax filterLandingPage filterHTML5"><img alt="" src="http://docs.kodesolution.info/revslider-hero/assets/gridimages/websitebuilder.jpg"><div class="hover-cover">Website Builder</div></a>
+        <a target="_blank" href="http://docs.kodesolution.info/revslider-hero/examples/original-preview/dark-fullsite.html" class="img-wrapper filterall filterSlider filterFullscreen filterSpecial filterMenu filterParallax filterLandingPage"><img alt="" src="http://docs.kodesolution.info/revslider-hero/assets/gridimages/dark_theme_blocks.jpg"><div class="hover-cover">Content Blocks Dark</div></a>
+        <a target="_blank" href="http://docs.kodesolution.info/revslider-hero/examples/original-preview/light-fullsite.html" class="img-wrapper filterall filterSlider filterFullscreen filterSpecial filterMenu filterParallax filterLandingPage"><img alt="" src="http://docs.kodesolution.info/revslider-hero/assets/gridimages/light_theme_blocks.jpg"><div class="hover-cover">Content Blocks Light</div></a>        
+        <a target="_blank" href="http://docs.kodesolution.info/revslider-hero/examples/original-preview/innovation.html" class="img-wrapper filterall filterSlider filterFullscreen filterSpecial filterMenu filterParallax filterHTML5"><img alt="" src="http://docs.kodesolution.info/revslider-hero/assets/gridimages/innovation_premium.jpg"><div class="hover-cover">Innovation</div></a>
+        <a target="_blank" href="http://docs.kodesolution.info/revslider-hero/examples/original-preview/tech-journal.html" class="img-wrapper filterall filterSlider filterFullscreen filterSpecial filterMenu filterParallax filterHTML5"><img alt="" src="http://docs.kodesolution.info/revslider-hero/assets/gridimages/tech_journal.jpg"><div class="hover-cover">Tech Journal</div></a>
+        <a target="_blank" href="http://docs.kodesolution.info/revslider-hero/examples/original-preview/cardealer.html" class="img-wrapper filterall filterSlider filterFullscreen filterSpecial filterParallax"><img alt="" src="http://docs.kodesolution.info/revslider-hero/assets/gridimages/cardealership.jpg"><div class="hover-cover">Car Dealer</div></a>
+        <a target="_blank" href="http://docs.kodesolution.info/revslider-hero/examples/original-preview/creative-frontpage.html" class="img-wrapper filterall filterSlider filterFullscreen filterSpecial filterMenu filterParallax"><img alt="" src="http://docs.kodesolution.info/revslider-hero/assets/gridimages/creative_frontpage.jpg"><div class="hover-cover">Creative FrontPage</div></a>
+        <a target="_blank" href="http://docs.kodesolution.info/revslider-hero/examples/original-preview/fulscreen-menu.html" class="img-wrapper filterall filterSlider filterFullscreen filterSpecial filterMenu filterParallax"><img alt="" src="http://docs.kodesolution.info/revslider-hero/assets/gridimages/fullscreen_menu.jpg"><div class="hover-cover">FullScreen Menu</div></a>
+        <a target="_blank" href="http://docs.kodesolution.info/revslider-hero/examples/original-preview/agency-website.html" class="img-wrapper filterall filterSlider filterFullscreen filterSpecial filterParallax"><img alt="" src="http://docs.kodesolution.info/revslider-hero/assets/gridimages/agencyslider.jpg"><div class="hover-cover">Agency Slider</div></a>
+    
+        <a target="_blank" href="http://docs.kodesolution.info/revslider-hero/examples/original-preview/app-landing-page.html" class="img-wrapper filterall filterSlider filterFullscreen filterSpecial filterParallax"><img alt="" src="http://docs.kodesolution.info/revslider-hero/assets/gridimages/app_landing_grid.jpg"><div class="hover-cover">App Landing Page</div></a>
+        
+        <a target="_blank" href="http://docs.kodesolution.info/revslider-hero/examples/original-preview/coming-soon.html" class="img-wrapper filterall filterSlider filterFullscreen filterSpecial filterParallax"><img alt="" src="http://docs.kodesolution.info/revslider-hero/assets/gridimages/comingsoon-1.jpg"><div class="hover-cover">Coming Soon</div></a>
+        
+        <a target="_blank" href="http://docs.kodesolution.info/revslider-hero/examples/original-preview/desk-scene.html" class="img-wrapper filterall filterSlider filterFullscreen filterSpecial filterParallax"><img alt="" src="http://docs.kodesolution.info/revslider-hero/assets/gridimages/deskscene.jpg"><div class="hover-cover">Desk Scene</div></a>
+        
+        <a target="_blank" href="http://docs.kodesolution.info/revslider-hero/examples/original-preview/sleek-landing-page.html" class="img-wrapper filterall filterSlider filterFullscreen filterSpecial filterParallax"><img alt="" src="http://docs.kodesolution.info/revslider-hero/assets/gridimages/landingpage.jpg"><div class="hover-cover">Premium Sleek Landing Page</div></a>
+        
+        <a target="_blank" href="http://docs.kodesolution.info/revslider-hero/examples/original-preview/clean-news-slider.html" class="img-wrapper filterall filterSlider filterFullscreen filterSpecial filterParallax"><img alt="" src="http://docs.kodesolution.info/revslider-hero/assets/gridimages/newsgallery.jpg"><div class="hover-cover">News Gallery</div></a>
+        
+        <a target="_blank" href="http://docs.kodesolution.info/revslider-hero/examples/original-preview/image-gallery.html" class="img-wrapper filterall filterSlider filterFullscreen filterSpecial filterParallax"><img alt="" src="http://docs.kodesolution.info/revslider-hero/assets/gridimages/photogallery.jpg"><div class="hover-cover">Photo Gallery</div></a>
+        
+        <a target="_blank" href="http://docs.kodesolution.info/revslider-hero/examples/original-preview/rock-band-music.html" class="img-wrapper filterall filterSlider filterFullscreen filterSpecial filterParallax"><img alt="" src="http://docs.kodesolution.info/revslider-hero/assets/gridimages/rockband_grid.jpg"><div class="hover-cover">Rock Band</div></a>
+        
+        <a target="_blank" href="http://docs.kodesolution.info/revslider-hero/examples/original-preview/interactive-whiteboard.html" class="img-wrapper filterall filterSlider filterFullscreen filterSpecial filterParallax"><img alt="" src="http://docs.kodesolution.info/revslider-hero/assets/gridimages/whiteboard.jpg"><div class="hover-cover">White Board Jim</div></a>
+        
+        <a target="_blank" href="http://docs.kodesolution.info/revslider-hero/examples/original-preview/christmas-snow.html" class="img-wrapper filterall filterSlider filterFullscreen filterSpecial filterParallax"><img alt="" src="http://docs.kodesolution.info/revslider-hero/assets/gridimages/xmas_slider.jpg"><div class="hover-cover">Xmas Slider</div></a>
+
+        <a target="_blank" href="http://docs.kodesolution.info/revslider-hero/examples/original-preview/premium-4kvideos.html" class="img-wrapper filterall filterSlider filterFullscreen filterSpecial filterParallax filterYouTube"><img alt="" src="http://docs.kodesolution.info/revslider-hero/assets/gridimages/premium_better_youtube.jpg"><div class="hover-cover">4K YouTube Slider</div></a>
+
+        <a target="_blank" href="http://docs.kodesolution.info/revslider-hero/examples/original-preview/premium-team-slider.html" class="img-wrapper filterall filterSlider filterFullwidth filterSpecial"><img alt="" src="http://docs.kodesolution.info/revslider-hero/assets/gridimages/premium_our_team_slider.jpg"><div class="hover-cover">Team Slider</div></a>
+
+        <a target="_blank" href="http://docs.kodesolution.info/revslider-hero/examples/original-preview/premium-team-carousel.html" class="img-wrapper filterall filterCarousel filterFullwidth filterSpecial"><img alt="" src="http://docs.kodesolution.info/revslider-hero/assets/gridimages/premium_our_team_carousel.jpg"><div class="hover-cover">Team Carousel</div></a>
+
+        <a target="_blank" href="http://docs.kodesolution.info/revslider-hero/examples/original-preview/premium-restaurant.html" class="img-wrapper filterall filterHero filterFullscreen filterSpecial filterParallax filterYouTube"><img alt="" src="http://docs.kodesolution.info/revslider-hero/assets/gridimages/restaurant_grid.jpg"><div class="hover-cover">Fine Dining</div></a>
+
+        <a target="_blank" href="http://docs.kodesolution.info/revslider-hero/examples/original-preview/premium-agency.html" class="img-wrapper filterall filterHero filterFullscreen filterSpecial filterParallax filterYouTube"><img alt="" src="http://docs.kodesolution.info/revslider-hero/assets/gridimages/agency_grid.jpg"><div class="hover-cover">The Agency </div></a>
+
+        <a target="_blank" href="http://docs.kodesolution.info/revslider-hero/examples/original-preview/premium-concept.html" class="img-wrapper filterall filterSlider filterTimer filterFullscreen filterSpecial filterParallax filterHTML5"><img alt="" src="http://docs.kodesolution.info/revslider-hero/assets/gridimages/premium_concept.jpg"><div class="hover-cover">Concept Slider</div></a>
+
+        <a target="_blank" href="http://docs.kodesolution.info/revslider-hero/examples/original-preview/premium-creative-freedom.html" class="img-wrapper filterall filterSlider filterDDD filterFullscreen filterSpecial filterParallax filterHTML5"><img alt="" src="http://docs.kodesolution.info/revslider-hero/assets/gridimages/premium_creative_freedom.jpg"><div class="hover-cover">Creative Freedom</div></a>
+
+        <a target="_blank" href="http://docs.kodesolution.info/revslider-hero/examples/original-preview/premium-fullscreen-button.html" class="img-wrapper filterall filterSlider filterTimer filterAuto filterSpecial filterFullscreen filterParallax filterHTML5"><img alt="" src="http://docs.kodesolution.info/revslider-hero/assets/gridimages/premium_fullscreen_button1.jpg"><div class="hover-cover">FullScreen Toggle</div></a>
+
+        <a target="_blank" href="http://docs.kodesolution.info/revslider-hero/examples/original-preview/premium-parallax-scene.html" class="img-wrapper filterall filterHero filterDDD filterAuto filterSpecial filterParallax"><img alt="" src="http://docs.kodesolution.info/revslider-hero/assets/gridimages/premium_parallax_scene.jpg"><div class="hover-cover">Parallax Scene</div></a>
+
+        <a target="_blank" href="http://docs.kodesolution.info/revslider-hero/examples/original-preview/premium-sliding-overlays.html" class="img-wrapper filterall filterSlider filterDDD filterFullscreen filterSpecial filterParallax filterHTML5"><img alt="" src="http://docs.kodesolution.info/revslider-hero/assets/gridimages/premium_sliding_overlays.jpg"><div class="hover-cover">Wow Factor</div></a>
+
+        <a target="_blank" href="http://docs.kodesolution.info/revslider-hero/examples/original-preview/premium-webproduct-hero.html" class="img-wrapper filterall filterHero filterDDD filterFullwidth filterSpecial filterParallax filterHTML5"><img alt="" src="http://docs.kodesolution.info/revslider-hero/assets/gridimages/premium_web_product_3d.jpg"><div class="hover-cover">Premium 3D WebProduct</div></a>
+
+        <a target="_blank" href="http://docs.kodesolution.info/revslider-hero/examples/original-preview/premium-ecommerce.html" class="img-wrapper filterall  filterSlider filterAuto filterSpecial"><img alt="" src="http://docs.kodesolution.info/revslider-hero/assets/gridimages/premium_woocommerce.jpg"><div class="hover-cover">Premium eCommerce</div></a>
+
+        <a target="_blank" href="http://docs.kodesolution.info/revslider-hero/examples/original-preview/carousel-classic.html" class="img-wrapper filterall filterCarousel filterTimer filterFullwidth filterParallax filterHTML5"><img alt="" src="http://docs.kodesolution.info/revslider-hero/assets/gridimages/carousel_classic1.jpg"><div class="hover-cover">Carousel Classic</div></a>
+        
+        <a target="_blank" href="http://docs.kodesolution.info/revslider-hero/examples/original-preview/carousel-highlight.html" class="img-wrapper filterall filterCarousel filterFullwidth"><img alt="" src="http://docs.kodesolution.info/revslider-hero/assets/gridimages/carousel_highlight1.jpg"><div class="hover-cover">carousel highlight</div></a>
+        
+        <a target="_blank" href="http://docs.kodesolution.info/revslider-hero/examples/original-preview/carousel-gallery.html" class="img-wrapper filterall filterCarousel filterAuto filterSpecial"><img alt="" src="http://docs.kodesolution.info/revslider-hero/assets/gridimages/carousel_instagram1.jpg"><div class="hover-cover">carousel instagram</div></a>
+        
+        <a target="_blank" href="http://docs.kodesolution.info/revslider-hero/examples/original-preview/carousel-media.html" class="img-wrapper filterall filterCarousel filterFullwidth filterHTML5 filterYouTube filterVimeo filterTabs"><img alt="" src="http://docs.kodesolution.info/revslider-hero/assets/gridimages/carousel_media1.jpg"><div class="hover-cover">carousel media</div></a>
+        
+        <a target="_blank" href="http://docs.kodesolution.info/revslider-hero/examples/original-preview/carousel-photography.html" class="img-wrapper filterall filterCarousel filterFullwidth filterFullscreen filterSpecial filterMenu"><img alt="" src="http://docs.kodesolution.info/revslider-hero/assets/gridimages/carousel_photography1.jpg"><div class="hover-cover">carousel photography</div></a>        
+        
+        <a target="_blank" href="http://docs.kodesolution.info/revslider-hero/examples/original-preview/carousel-showcase.html" class="img-wrapper filterall filterCarousel filterFullwidth"><img alt="" src="http://docs.kodesolution.info/revslider-hero/assets/gridimages/carousel_showcase1.jpg"><div class="hover-cover">carousel showcase</div></a>
+        
+        <a target="_blank" href="http://docs.kodesolution.info/revslider-hero/examples/original-preview/hero-image.html" class="img-wrapper filterall filterHero filterFullwidth filterParallax"><img alt="" src="http://docs.kodesolution.info/revslider-hero/assets/gridimages/hero_image1.jpg"><div class="hover-cover">hero image</div></a>
+        
+        <a target="_blank" href="http://docs.kodesolution.info/revslider-hero/examples/original-preview/news-video.html" class="img-wrapper filterall filterHero filterFullwidth filterSpecial filterVimeo"><img alt="" src="http://docs.kodesolution.info/revslider-hero/assets/gridimages/hero_newscollection.jpg"><div class="hover-cover">hero newscollection</div></a>       
+        
+        <a target="_blank" href="http://docs.kodesolution.info/revslider-hero/examples/original-preview/hero-newsletter.html" class="img-wrapper filterall filterHero filterFullwidth filterSpecial filterParallax"><img alt="" src="http://docs.kodesolution.info/revslider-hero/assets/gridimages/hero_newsletter1.jpg"><div class="hover-cover">hero newsletter</div></a>        
+        
+        <a target="_blank" href="http://docs.kodesolution.info/revslider-hero/examples/original-preview/hero-search-form.html" class="img-wrapper filterall filterHero filterFullwidth filterSpecial filterParallax"><img alt="" src="http://docs.kodesolution.info/revslider-hero/assets/gridimages/hero_searchform.jpg"><div class="hover-cover">hero searchform</div></a>
+        
+        <a target="_blank" href="http://docs.kodesolution.info/revslider-hero/examples/original-preview/hero-sports.html" class="img-wrapper filterall filterHero filterFullwidth filterParallax"><img alt="" src="http://docs.kodesolution.info/revslider-hero/assets/gridimages/hero_sports1.jpg"><div class="hover-cover">hero sports</div></a>        
+        
+        <a target="_blank" href="http://docs.kodesolution.info/revslider-hero/examples/original-preview/hero-vimeo.html" class="img-wrapper filterall filterHero filterFullwidth filterVimeo"><img alt="" src="http://docs.kodesolution.info/revslider-hero/assets/gridimages/hero_vimeo1.jpg"><div class="hover-cover">hero vimeo</div></a>
+        
+        <a target="_blank" href="http://docs.kodesolution.info/revslider-hero/examples/original-preview/hero-web-product-dark.html" class="img-wrapper filterall filterHero filterFullwidth filterParallax"><img alt="" src="http://docs.kodesolution.info/revslider-hero/assets/gridimages/hero_webproductdark.jpg"><div class="hover-cover">hero webproductdark</div></a>       
+        
+        <a target="_blank" href="http://docs.kodesolution.info/revslider-hero/examples/original-preview/hero-web-product-light.html" class="img-wrapper filterall filterHero filterFullwidth filterParallax"><img alt="" src="http://docs.kodesolution.info/revslider-hero/assets/gridimages/hero_webproductlight.jpg"><div class="hover-cover">hero webproductlight</div></a>
+        
+        <a target="_blank" href="http://docs.kodesolution.info/revslider-hero/examples/original-preview/hero-youtube.html" class="img-wrapper filterall filterHero filterFullwidth filterYouTube"><img alt="" src="http://docs.kodesolution.info/revslider-hero/assets/gridimages/hero_youtube1.jpg"><div class="hover-cover">hero youtube</div></a>        
+        
+        <a target="_blank" href="http://docs.kodesolution.info/revslider-hero/examples/original-preview/premium-rotating-words.html" class="img-wrapper filterall filterFullwidth filterSpecial filterParallax filterFullscreen filterHTML5"><img alt="" src="http://docs.kodesolution.info/revslider-hero/assets/gridimages/premium_rotatingwords.jpg"><div class="hover-cover">premium rotating words</div></a>       
+        
+        <a target="_blank" href="http://docs.kodesolution.info/revslider-hero/examples/original-preview/premium-content-zoom.html" class="img-wrapper filterall filterFullwidth  filterSpecial filterHTML5"><img alt="" src="http://docs.kodesolution.info/revslider-hero/assets/gridimages/premium1_content_zoom.jpg"><div class="hover-cover">premium content zoom</div></a>        
+        
+        <a target="_blank" href="http://docs.kodesolution.info/revslider-hero/examples/original-preview/premium-scroll-effects.html" class="img-wrapper filterall filterFullwidth filterFullscreen filterParallax filterSpecial"><img alt="" src="http://docs.kodesolution.info/revslider-hero/assets/gridimages/premium2_big_bold.jpg"><div class="hover-cover">premium big bold</div></a>
+        
+        <a target="_blank" href="http://docs.kodesolution.info/revslider-hero/examples/original-preview/premium-food-carousel.html" class="img-wrapper filterall filterFullwidth filterTabs"><img alt="" src="http://docs.kodesolution.info/revslider-hero/assets/gridimages/premium3_food_carousel.jpg"><div class="hover-cover">premium food carousel</div></a>
+        
+        <a target="_blank" href="http://docs.kodesolution.info/revslider-hero/examples/original-preview/slider-classic.html" class="img-wrapper filterall filterSlider filterTimer filterAuto filterParallax"><img alt="" src="http://docs.kodesolution.info/revslider-hero/assets/gridimages/slider_classic1.jpg"><div class="hover-cover">slider classic</div></a>
+        
+        <a target="_blank" href="http://docs.kodesolution.info/revslider-hero/examples/original-preview/slider-classic-full.html" class="img-wrapper filterall filterSlider filterTimer filterFullwidth filterParallax"><img alt="" src="http://docs.kodesolution.info/revslider-hero/assets/gridimages/slider_classicfull.jpg"><div class="hover-cover">slider classicfull</div></a>
+        
+        <a target="_blank" href="http://docs.kodesolution.info/revslider-hero/examples/original-preview/gallery-light.html" class="img-wrapper filterall filterSlider filterAuto filterTabs"><img alt="" src="http://docs.kodesolution.info/revslider-hero/assets/gridimages/slider_facebook.jpg"><div class="hover-cover">Gallery Light</div></a>
+        
+        <a target="_blank" href="http://docs.kodesolution.info/revslider-hero/examples/original-preview/content-tabs.html" class="img-wrapper filterall filterSlider filterAuto filterTabs"><img alt="" src="http://docs.kodesolution.info/revslider-hero/assets/gridimages/slider_fancytext.jpg"><div class="hover-cover">slider fancytext</div></a>
+        
+        <a target="_blank" href="http://docs.kodesolution.info/revslider-hero/examples/original-preview/slider-fashion.html" class="img-wrapper filterall filterSlider filterFullwidth filterFullscreen filterScroll filterFront"><img alt="" src="http://docs.kodesolution.info/revslider-hero/assets/gridimages/slider_fashion.jpg"><div class="hover-cover">slider fashion</div></a>
+        
+        <a target="_blank" href="http://docs.kodesolution.info/revslider-hero/examples/original-preview/gallery-dark.html" class="img-wrapper filterall filterSlider filterAuto"><img alt="" src="http://docs.kodesolution.info/revslider-hero/assets/gridimages/slider_flickr.jpg"><div class="hover-cover">Gallery Dark</div></a>
+        
+        <a target="_blank" href="http://docs.kodesolution.info/revslider-hero/examples/original-preview/slider-notgeneric.html" class="img-wrapper filterall filterSlider filterFullwidth filterFullscreen filterMenu filterParallax"><img alt="" src="http://docs.kodesolution.info/revslider-hero/assets/gridimages/slider_generic.jpg"><div class="hover-cover">slider generic</div></a>
+        
+        <a target="_blank" href="http://docs.kodesolution.info/revslider-hero/examples/original-preview/slider-gym.html" class="img-wrapper filterall filterSlider filterFullwidth filterFullscreen filterScroll filterMenu filterFront filterHTML5"><img alt="" src="http://docs.kodesolution.info/revslider-hero/assets/gridimages/slider_gym.jpg"><div class="hover-cover">slider gym</div></a>
+        
+        <a target="_blank" href="http://docs.kodesolution.info/revslider-hero/examples/original-preview/slider-highlight-showcase.html" class="img-wrapper filterall filterSlider filterTimer filterAuto filterTabs"><img alt="" src="http://docs.kodesolution.info/revslider-hero/assets/gridimages/slider_highlight1.jpg"><div class="hover-cover">slider highlight</div></a>
+        
+        <a target="_blank" href="http://docs.kodesolution.info/revslider-hero/examples/original-preview/slider-levano-restaurant-bar.html" class="img-wrapper filterall filterSlider filterFullwidth filterFullscreen filterScroll filterFront filterSpecial filterHTML5"><img alt="" src="http://docs.kodesolution.info/revslider-hero/assets/gridimages/slider_levano.jpg"><div class="hover-cover">slider levano</div></a>
+        
+        <a target="_blank" href="http://docs.kodesolution.info/revslider-hero/examples/original-preview/slider-media.html" class="img-wrapper filterall filterSlider filterAuto filterHTML5 filterVimeo filterYouTube"><img alt="" src="http://docs.kodesolution.info/revslider-hero/assets/gridimages/slider_media.jpg"><div class="hover-cover">slider media</div></a>
+        
+        <a target="_blank" href="http://docs.kodesolution.info/revslider-hero/examples/original-preview/gallery-news.html" class="img-wrapper filterall filterSlider filterTimer filterFullwidth filterTabs filterParallax filterHTML5"><img alt="" src="http://docs.kodesolution.info/revslider-hero/assets/gridimages/slider_news.jpg"><div class="hover-cover">slider news</div></a>
+        
+        <a target="_blank" href="http://docs.kodesolution.info/revslider-hero/examples/original-preview/slider-photography.html" class="img-wrapper filterall filterSlider filterFullwidth filterFullscreen filterScroll filterFront filterHTML5"><img alt="" src="http://docs.kodesolution.info/revslider-hero/assets/gridimages/slider_photography.jpg"><div class="hover-cover">slider photography</div></a>       
+        
+        <a target="_blank" href="http://docs.kodesolution.info/revslider-hero/examples/original-preview/gallery-vimeo.html" class="img-wrapper filterall filterSlider filterAuto filterTabs filterVimeo"><img alt="" src="http://docs.kodesolution.info/revslider-hero/assets/gridimages/slider_vimeo.jpg"><div class="hover-cover">slider vimeo</div></a>
+        
+        <a target="_blank" href="http://docs.kodesolution.info/revslider-hero/examples/original-preview/gallery-youtube.html" class="img-wrapper filterall filterSlider filterAuto filterTabs filterYouTube"><img alt="" src="http://docs.kodesolution.info/revslider-hero/assets/gridimages/slider_youtube.jpg"><div class="hover-cover">slider youtube</div></a>
+        
+        <a target="_blank" href="http://docs.kodesolution.info/revslider-hero/examples/original-preview/web-product-dark.html" class="img-wrapper filterall filterSlider filterFullwidth filterFullscreen filterScroll filterMenu filterFront filterHTML5"><img alt="" src="http://docs.kodesolution.info/revslider-hero/assets/gridimages/slider_webproductdark.jpg"><div class="hover-cover">slider webproductdark</div></a>
+        
+        <a target="_blank" href="http://docs.kodesolution.info/revslider-hero/examples/original-preview/web-product-light.html" class="img-wrapper filterall filterSlider filterFullwidth filterFullscreen filterScroll filterMenu filterFront filterHTML5"><img alt="" src="http://docs.kodesolution.info/revslider-hero/assets/gridimages/slider_webproductlight.jpg"><div class="hover-cover">slider webproductlight</div></a>       
+        
+        <a target="_blank" href="http://docs.kodesolution.info/revslider-hero/examples/original-preview/premium-travel.html" class="img-wrapper filterall filterSlider filterTimer filterAuto filterParallax"><img alt="" src="http://docs.kodesolution.info/revslider-hero/assets/gridimages/travelslider.jpg"><div class="hover-cover">travelslider</div></a>
+        
+        <div class="clearfix"></div>
+      </div>
+      <div class="clearfix"></div>
+    </article>
+    
+    <section id="key-features" class="divider parallax layer-overlay overlay-white-8" data-tm-bg-img="images/bg/bg1.jpg" >
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h2 class="mb-30 text-uppercase text-black">Key <span class="text-theme-colored">Features:</span></h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+            <div class="feature-box">
+              <div class="feature-box-icon">
+                <i class="fa fa-bold"></i>
+              </div>
+              <div class="feature-box-info">
+                <h5>Built with Bootstrap 3.x</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+            <div class="feature-box">
+              <div class="feature-box-icon">
+                <i class="fa fa-money"></i>
+              </div>
+              <div class="feature-box-info">
+                <h5>Slider Revolution <br><span class="font-14"><strong class="text-red">(Save $14)</strong></span></h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+            <div class="feature-box">
+              <div class="feature-box-icon">
+                <i class="fa fa-money"></i>
+              </div>
+              <div class="feature-box-info">
+                <h5>Layer Slider <br><span class="font-14"><strong class="text-red">(Save $11)</strong></span></h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+            <div class="feature-box">
+              <div class="feature-box-icon">
+                <i class="fa fa-money"></i>
+              </div>
+              <div class="feature-box-info">
+                <h5>Menuzord Megamenu <br><span class="font-14"><strong class="text-red">(Save $7)</strong></span></h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+            <div class="feature-box">
+              <div class="feature-box-icon">
+                <i class="fa fa-adjust"></i>
+              </div>
+              <div class="feature-box-info">
+                <h5>6 Predefined Theme Color Skins</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+            <div class="feature-box">
+              <div class="feature-box-icon">
+                <i class="fa fa-television"></i>
+              </div>
+              <div class="feature-box-info">
+                <h5>Wide, Boxed & Onepage Layouts</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+            <div class="feature-box">
+              <div class="feature-box-icon">
+                <i class="fa fa-google"></i>
+              </div>
+              <div class="feature-box-info">
+                <h5>Google Fonts Supported</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+            <div class="feature-box">
+              <div class="feature-box-icon">
+                <i class="fa fa-shopping-cart"></i>
+              </div>
+              <div class="feature-box-info">
+                <h5>Shop Ready</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+            <div class="feature-box">
+              <div class="feature-box-icon">
+                <i class="fa fa-video-camera"></i>
+              </div>
+              <div class="feature-box-info">
+                <h5>Video Backgrounds</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+            <div class="feature-box">
+              <div class="feature-box-icon">
+                <i class="fa fa-magic"></i>
+              </div>
+              <div class="feature-box-info">
+                <h5>Parallax Effect</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+            <div class="feature-box">
+              <div class="feature-box-icon">
+                <i class="fa fa-calendar-check-o"></i>
+              </div>
+              <div class="feature-box-info">
+                <h5>Calendar</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+            <div class="feature-box">
+              <div class="feature-box-icon">
+                <i class="fa fa-picture-o"></i>
+              </div>
+              <div class="feature-box-info">
+                <h5>Photo Gallery</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+            <div class="feature-box">
+              <div class="feature-box-icon">
+                <i class="fa fa-th"></i>
+              </div>
+              <div class="feature-box-info">
+                <h5>Portfolio Grid, Masonry and Tiles</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+            <div class="feature-box">
+              <div class="feature-box-icon">
+                <i class="fa fa-comments"></i>
+              </div>
+              <div class="feature-box-info">
+                <h5>Blog Pages <span class="font-size-xs">(Not Functional)</span></h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+            <div class="feature-box">
+              <div class="feature-box-icon">
+                <i class="fa fa-tablet"></i>
+              </div>
+              <div class="feature-box-info">
+                <h5>100% Responsive</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+            <div class="feature-box">
+              <div class="feature-box-icon">
+                <i class="fa fa-search-plus"></i>
+              </div>
+              <div class="feature-box-info">
+                <h5>SEO Optimized</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+            <div class="feature-box">
+              <div class="feature-box-icon">
+                <i class="fa fa-mobile"></i>
+              </div>
+              <div class="feature-box-info">
+                <h5>Retina Ready!</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+            <div class="feature-box">
+              <div class="feature-box-icon">
+                <i class="fa fa-bars"></i>
+              </div>
+              <div class="feature-box-info">
+                <h5>Built-in Mega Menu</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <!-- end main-content -->
+  
+  <!-- Footer -->
+  <footer id="footer" class="footer text-center pb-0" data-tm-bg-img="images/pattern/p15.png">
+    <div class="container pt-80 pb-80">
+      <div class="row">
+        <div class="col-md-12">  
+          <p class="m-0 font-12">Copyright &copy;2015 <a href="#">ThemeMascot</a></p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <a class="scrollToTop bg-theme-colored" href="#"><i class="fa fa-angle-up"></i></a></div>
+<!-- end wrapper -->
+
+<!-- Footer Scripts -->
+<!-- JS | Custom script for all pages -->
+<script src="js/custom.js"></script>
+<script>
+  jQuery("document").ready(function() {
+    jQuery('.img-wrapper').hover(function() {
+      var t = jQuery(this);
+      punchgs.TweenLite.to(t.find('.hover-cover'),0.5,{autoAlpha:1,ease:punchgs.Power3.easeInOut});
+    }, function() {
+      var t = jQuery(this);
+      punchgs.TweenLite.to(t.find('.hover-cover'),0.5,{autoAlpha:0,ease:punchgs.Power3.easeInOut});
+    });
+
+    jQuery('body').on('click','.filter li',function() {
+      var li=jQuery(this),
+        n = new punchgs.TimelineLite;
+      n.pause();
+        n.add(punchgs.TweenLite.to(jQuery('.img-wrapper'),0.2,{autoAlpha:0,ease:punchgs.Power3.easeInOut}),0);
+      
+      jQuery('.img-wrapper').each(function() {
+        var a = jQuery(this);                                     
+        if (a.hasClass(li.data('filter')))                        
+          n.add(punchgs.TweenLite.to(a,0.2,{display:"block",autoAlpha:1,ease:punchgs.Power3.easeInOut}),0.23);
+        else
+          n.add(punchgs.TweenLite.to(a,0.001,{display:"none"}),0.21);         
+      });
+      n.play();
+      jQuery('.filter li.selected').removeClass("selected");
+      li.addClass("selected");
+    });
+  })
+</script>
+
+</body>
+</html>

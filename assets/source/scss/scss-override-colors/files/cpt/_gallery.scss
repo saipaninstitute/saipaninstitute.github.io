@@ -1,0 +1,14 @@
+/*
+ * Shortcode: gallery.scss
+ * -----------------------------------------------
+*/
+
+.tm-sc-gallery {
+	&.gallery-style1-current-theme {
+		.tm-gallery {
+			.details {
+				background-color: $theme-color1;
+			}
+		}
+	}
+}

@@ -1,0 +1,54 @@
+/*
+ * Shortcode: funfacts.scss
+ * -----------------------------------------------
+*/
+.tm-sc-funfact {
+	&.funfact-current-style {
+		box-shadow: 0 10px 30px rgba(0,0,0,.07);
+		border-radius: 10px;
+		overflow: hidden;
+		&:after {
+			position: absolute;
+			left: -2px;
+			bottom: 0px;
+			width: 100%;
+			height: 4px;
+			content: '';
+			background-image: -moz-linear-gradient(0deg, #313131 0%, #bdc0c3 100%);
+			background-image: -webkit-linear-gradient(0deg, #313131 0%, #bdc0c3 100%);
+			background-image: -ms-linear-gradient(0deg, #313131 0%, #bdc0c3 100%);
+			-ms-transform: translateX(-100%);
+			-webkit-transform: translateX(-100%);
+			transform: translateX(-100%);
+			visibility: hidden;
+			opacity: 0;
+			@include transition(all 0.5s ease-in);
+		}
+		.funfact-inner {
+		}
+		&:hover {
+			box-shadow: 0 10px 30px rgba(0,0,0,.15);
+			&:after {
+				-ms-transform: translateX(0%);
+				-webkit-transform: translateX(0%);
+				transform: translateX(0%);
+				visibility: visible;
+				opacity: 1;
+			}
+			.funfact-icon {
+				transform: rotateY(180deg);
+				i {
+				}
+			}
+		}
+	}
+}
+
+.funfact-item {
+	.funfact-icon {
+    font-size: 48px;
+	}
+	.counter {
+    font-size: 48px;
+	}
+}

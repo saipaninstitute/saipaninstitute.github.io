@@ -1,0 +1,16 @@
+/*
+ * Shortcode: common.scss
+ * -----------------------------------------------
+*/
+.border-left-theme-colored1-3px {
+	border-left-color: $theme-color1;
+}
+.border-bottom-theme-colored2-2px {
+	border-bottom-color: $theme-color1;
+}
+.border-left-theme-colored1-6px {
+	border-left-color: $theme-color1 !important;
+}
+.border-right-theme-colored1-6px {
+	border-right-color: $theme-color1 !important;
+}

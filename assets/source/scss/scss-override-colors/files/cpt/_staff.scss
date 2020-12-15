@@ -1,0 +1,74 @@
+/*
+ * Shortcode: staff.scss
+ * -----------------------------------------------
+*/
+
+.tm-sc-staff,
+.tm-cpt-archive-staff {
+	&.staff-style5-current-theme {
+		.tm-staff {
+		}
+		.staff-inner {
+			.staff-basic-info {
+				.speciality:after {
+					background: $theme-color1;
+				}
+			}
+			.staff-content {
+				.name {
+					a {
+						&:hover {
+							color: $theme-color1;
+						}
+					}
+				}
+				.styled-icons {
+					a {
+						&:hover {
+							background: $theme-color1;
+						}
+					}
+				}
+			}
+
+			&:hover {
+				.staff-content {
+					.styled-icons a {
+						&:hover {
+							i {
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+.staff-item {
+	.staff-content {
+		border-bottom-color: $theme-color1;
+	}
+}
+
+.team-member {
+	&.team-current-style3 {
+		.team-thumb {
+	    img {
+			}
+		}
+		.team-details {
+		}
+		&:hover {
+			.team-thumb {
+		    img {
+				}
+			}
+			.team-details {
+				background: $theme-color2;
+				h4, p, a {
+				}
+			}
+		}
+	}
+}
