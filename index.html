@@ -88,8 +88,8 @@
             <rs-module-wrap id="rev_slider_10_1_wrapper" data-alias="studypress-html-revslider-1" data-source="gallery" style="background:transparent;padding:0;margin:0px auto;margin-top:0;margin-bottom:0;">
               <rs-module id="rev_slider_10_1" style="display:none;" data-version="6.1.7">
                 <rs-slides>
-                  <rs-slide data-key="rs-48" data-title="Slide 1" data-thumb="images/bg/bg2.jpg" data-anim="ei:d;eo:d;s:d;r:0;t:slotslide-horizontal;sl:d;">
-                    <img src="images/bg/bg2.jpg" title="bg2" width="1920" height="1280" data-parallax="off" class="rev-slidebg" data-no-retina>
+                  <rs-slide data-key="rs-48" data-title="Slide 1" data-thumb="images/saipaninstitute/students.jpg" data-anim="ei:d;eo:d;s:d;r:0;t:slotslide-horizontal;sl:d;">
+                    <img src="images/saipaninstitute/students.jpg" title="bg2" width="1920" height="1280" data-parallax="off" class="rev-slidebg" data-no-retina>
                     <!--
                       -->
                     <rs-layer
@@ -358,81 +358,9 @@
         <div class="row">
           <div class="col-12">
             <h2 class="mt-0 mb-0">Contact Us</h2>
-
-            <!-- Google reCAPTCHA -->
-            <script src="https://www.google.com/recaptcha/api.js"></script>
-            
-            <!-- Contact Form -->
-            <form id="contact_form" name="contact_form" class="" action="includes/sendmail-recaptcha.php" method="post">
-              <div class="form-row">
-                <div class="col-sm-6">
-                  <div class="form-group">
-                    <label>Name <small>*</small></label>
-                    <input name="form_name" class="form-control" type="text" placeholder="Enter Name">
-                  </div>
-                </div>
-                <div class="col-sm-6">
-                  <div class="form-group">
-                    <label>Email <small>*</small></label>
-                    <input name="form_email" class="form-control required email" type="email" placeholder="Enter Email">
-                  </div>
-                </div>
-              </div>
-              <div class="form-row">
-                <div class="col-sm-6">
-                  <div class="form-group">
-                    <label>Subject <small>*</small></label>
-                    <input name="form_subject" class="form-control required" type="text" placeholder="Enter Subject">
-                  </div>
-                </div>
-                <div class="col-sm-6">
-                  <div class="form-group">
-                    <label>Phone</label>
-                    <input name="form_phone" class="form-control" type="text" placeholder="Enter Phone">
-                  </div>
-                </div>
-              </div>
-
-              <div class="form-group">
-                <label>Message</label>
-                <textarea name="form_message" class="form-control required" rows="5" placeholder="Enter Message"></textarea>
-              </div>
-              <div class="form-group">
-                <div class="g-recaptcha" data-sitekey="6LcFfhAUAAAAAM-OQbebKGpCxrT_-xkr_rEVXCfu"></div>
-              </div>
-              <div class="form-group">
-                <input name="form_botcheck" class="form-control" type="hidden" value="" />
-                <button type="submit" class="btn btn-flat btn-theme-colored1 text-uppercase mt-10 mb-sm-30 border-left-theme-color-2-4px" data-loading-text="Please wait...">Send your message</button>
-                <button type="reset" class="btn btn-flat btn-theme-colored3 text-uppercase mt-10 mb-sm-30 border-left-theme-color-2-4px">Reset</button>
-              </div>
-            </form>
-
-            <!-- Contact Form Validation-->
-            <script>
-              (function($) {
-                $("#contact_form").validate({
-                  submitHandler: function(form) {
-                    var form_btn = $(form).find('button[type="submit"]');
-                    var form_result_div = '#form-result';
-                    $(form_result_div).remove();
-                    form_btn.before('<div id="form-result" class="alert alert-success" role="alert" style="display: none;"></div>');
-                    var form_btn_old_msg = form_btn.html();
-                    form_btn.html(form_btn.prop('disabled', true).data("loading-text"));
-                    $(form).ajaxSubmit({
-                      dataType:  'json',
-                      success: function(data) {
-                        if( data.status == 'true' ) {
-                          $(form).find('.form-control').val('');
-                        }
-                        form_btn.prop('disabled', false).html(form_btn_old_msg);
-                        $(form_result_div).html(data.message).fadeIn('slow');
-                        setTimeout(function(){ $(form_result_div).fadeOut('slow') }, 6000);
-                      }
-                    });
-                  }
-                });
-              })(jQuery);
-            </script>
+            <p>
+              Email: <a href="mailto:contact@saipan.institute">contact@saipan.institute</a>
+            </p>
           </div>
         </div>
       </div>
